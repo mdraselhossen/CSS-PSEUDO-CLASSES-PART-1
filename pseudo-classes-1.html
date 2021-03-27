@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css tutorial</title>
+    <style type="text/css">
+        /*li:first-child{color: red;}*/
+
+        /*li:last-child{color: blueviolet;} */
+
+        /*li:nth-child(3){color: blue;}*/
+        /*li:nth-last-child(2n){color: rgb(95, 255, 2);}*/
+         
+         /* p:nth-of-type(2){font-size: 25px;}*/
+        /* p:nth-last-of-type(2){font-size: 25px;}*/
+         
+          /* li:only-child{color: red;}*/
+         /* p:only-of-type{border:5px solid red}*/
+
+         /*p:first-of-type{font-size: 30px;}*/
+         /*p:last-of-type{font-size: 30px;}*/
+
+         /*div:empty{border: 5px solid red;}*/
+        
+        /* p:not(.not){color: red;}*/
+
+        /*p:lang(en){border: 5px solid red;}
+        p:lang(fr){border: 5px solid blue;}
+        p:lang(ru){border: 5px solid green;}*/
+
+        /*ul a:link{color: green;font-size: 30px;}
+        ul a:hover{color: red;font-size: 30px;}
+        ul a:visited{color: purple;font-size: 30px;}
+        ul a:active{color: yellow;font-size: 30px;}*/ 
+         p:target {
+                border: 2px solid #D4D4D4;
+                background-color: #e5eecc;
+                }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum1.</p>
+    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum.2</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum.3</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum1.</p>
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum.2</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, dolorum.3</p>
+    </div>
+    <p lang="en">how are you</p>
+	<p lang="fr">Comment allez-vous</p>
+	<p lang="ru">как дела</p>
+    <a href="#">WWW.YOUTUBE.COM</a>
+    	<!--this on for target selector-->
+	<p><a href="#news1">Jump to New content 1</a></p>
+	<p><a href="#news2">Jump to New content 2</a></p>
+	
+	<p id="news1"><b>New content 1...</b></p>
+	<p id="news2"><b>New content 2...</b></p>
+
+</body>
+</html>
